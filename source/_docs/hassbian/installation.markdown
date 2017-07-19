@@ -21,7 +21,7 @@ These instructions are also available as a [video](https://www.youtube.com/watch
 
 After initial boot an installer will run in the background and takes around 15 minutes to complete, after it has finished you can reach Home Assistant in your browser at [http://hassbian.local:8123]. If you want to login via SSH, the default username is `pi` and password is `raspberry` (please change this by running `passwd`). The Home Assistant configuration is located at `/home/homeassistant/.homeassistant/`.
 
-If you find that the web page is not reachable after some time check that you have files in `/home/homeassistant/.homeassistant/`, if there are no files in this location then run the installer manually using this command `sudo systemctl start install_homeassistant.service`.
+If you find that the web page is not reachable after some time check that you have files in `/home/homeassistant/.homeassistant/`, if there are no files in this location then run the installer manually using this command: `sudo systemctl start install_homeassistant.service`.
 
 
 The following extras are included on the image:
